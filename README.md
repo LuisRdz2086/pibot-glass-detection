@@ -8,7 +8,7 @@ This sub-project includes a slightly modified version of the GDNet approach, ori
 
 - **Original Repository**: [Charmve/Mirror-Glass-Detection](https://github.com/Charmve/Mirror-Glass-Detection)
 - **Modifications**: Integration with an external dataset, Adapted for CPU execution and changed output format.
-- **Note**: Pre-trained models have been removed to reduce the size of the uploaded files.
+- **Note**: The output is a inference mask, with varied results, no pointclouds are considered.
 
 ## 2. fanet
 
@@ -16,7 +16,7 @@ This sub-project adapts the 'FakeMix Augmentation Improves Transparent Object De
 
 - **Original Repository**: [yangcaoai/fanet](https://github.com/yangcaoai/fanet)
 - **Modifications**: Integration with an external dataset, Adapted for CPU execution and changed output format.
-- **Note**: Pre-trained models have been removed to reduce the file size.
+- **Note**: The output is a inference mask, with great results,  no pointclouds are considered.
 
 ## 3. Implicit Depth
 
@@ -24,12 +24,11 @@ This sub-project is based on the 'RGB-D Local Implicit Function for Depth Comple
 
 - **Original Repository**: [NVlabs/implicit_depth](https://github.com/NVlabs/implicit_depth)
 - **Modifications**: Temporary changes for output testing.
-- **Note**: The original output format has been restored.
+- **Note**: This approach's output includes an adapted point cloud with the infered mask.
 
 ## 4. Evaluation
 
 This section contains inferences and ground truth masks from the dataset, along with a Python script used for calculating the results and generating .csv files with the metrics.
 
 - **Dataset**: The dataset used for obtaining the metrics is available on [Google Drive](https://drive.google.com/drive/folders/1cwlCnjbqtyv46KLMiCVRoCo2kbBxa6Q2?usp=sharing).
-- **Note**: Pre-trained models have been removed from all approaches to minimize upload sizes. These models and datasets can be obtained from their respective original repositories.
 
