@@ -7,7 +7,7 @@ This repository contains several sub-projects related to object detection and de
 This sub-project includes a slightly modified version of the GDNet approach, originally developed for mirror and glass detection. The primary modification involves the use of an external dataset.
 
 - **Original Repository**: [Charmve/Mirror-Glass-Detection](https://github.com/Charmve/Mirror-Glass-Detection)
-- **Modifications**: Integration with an external dataset.
+- **Modifications**: Integration with an external dataset, Adapted for CPU execution and changed output format.
 - **Note**: Pre-trained models have been removed to reduce the size of the uploaded files.
 
 ## 2. fanet
@@ -15,7 +15,7 @@ This sub-project includes a slightly modified version of the GDNet approach, ori
 This sub-project adapts the 'FakeMix Augmentation Improves Transparent Object Detection' approach. Modifications are made to enable CPU execution and to alter the output to the inferred image.
 
 - **Original Repository**: [yangcaoai/fanet](https://github.com/yangcaoai/fanet)
-- **Modifications**: Adapted for CPU execution and changed output format.
+- **Modifications**: Integration with an external dataset, Adapted for CPU execution and changed output format.
 - **Note**: Pre-trained models have been removed to reduce the file size.
 
 ## 3. Implicit Depth
